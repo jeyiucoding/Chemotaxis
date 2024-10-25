@@ -50,7 +50,7 @@ void draw(){
            gameContinue =false;
            break;
          }
-         System.out.println(dist(cars[i].myX,cars[i].myY, ohio[k].myX, ohio[k].myY));
+         //System.out.println(dist(cars[i].myX,cars[i].myY, ohio[k].myX, ohio[k].myY));
          
          
          }
