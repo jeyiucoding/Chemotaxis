@@ -46,7 +46,7 @@ void draw(){
  
    for (int i = 0; i < cars.length; i++) {
       for(int k = 0; k < ohio.length;k++){
-        if(dist(cars[i].myX,cars[i].myY, ohio[k].myX, ohio[k].myY) <5){
+        if(dist(cars[i].myX,cars[i].myY, ohio[k].myX, ohio[k].myY) <1){
            gameContinue =false;
            break;
          }
